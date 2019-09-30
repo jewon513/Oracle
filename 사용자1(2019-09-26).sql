@@ -1,0 +1,10 @@
+-- 여기는 Uer1 사용자 화면입니다.
+
+SELECT 30 + 40 FROM dual;
+
+-- 현재 부여된 권한이 무엇인지 알려달라.
+SELECT * FROM DBA_ROLE_PRIVS;
+SELECT * FROM DBA_TAB_PRIVS;
+SELECT * FROM USER_TAB_PRIVS;
+SELECT * FROM USER_ROLE_PRIVS;
+
